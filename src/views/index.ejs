@@ -21,7 +21,6 @@
                 <a href="/">
                     <img src="/images/logo.svg" alt="Rocket.Q Logo"/>
                 </a>
-
             </header>
 
             <div id="bg">
@@ -31,8 +30,8 @@
      
             <main>
                 <div class="container">
-
-                    <%- include(`parts/${page}`) %>
+                    <!-- Vai renderizar a part correta de acordo com a url-->
+                    <%- include(`parts/${page}`)  %>
                 </div>
             </main>
         </div>
